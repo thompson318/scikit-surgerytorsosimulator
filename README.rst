@@ -39,6 +39,8 @@ SnappySonic
 
 Author: Stephen Thompson
 
+SciKit-SurgeryTorsoSimulator has been superseded by SnappySonic.
+
 SnappySonic can be used as an ultrasound acquisition simulator. The output from a tracking system (NDI or AruCo tags) is to select a frame of pre-recorded video to show. A suitable video of ultrasound data is included in the data directory, however the user can select a video of their choosing. The software and its use is described in the `SnappySonic paper`_. 
 
 SnappySonic is part of the `SciKit-Surgery`_ software project, developed at the `Wellcome EPSRC Centre for Interventional and Surgical Sciences`_, part of `University College London (UCL)`_.

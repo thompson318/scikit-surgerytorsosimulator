@@ -11,10 +11,10 @@ with open('README.rst') as f:
     long_description = f.read()
 
 setup(
-    name='snappysonic',
+    name='scikit-surgerytorsosimulator',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
-    description='snappysonic provides an application to simulate an ultrasound probe moving over a body torso, it is intended for public engagement events"',
+    description='scikit-surgerytorsosimulator has been superseded by snappysonic"',
     long_description=long_description,
     long_description_content_type='text/x-rst',
     url='https://github.com/UCL/snappysonic',
@@ -51,13 +51,7 @@ setup(
     ),
 
     install_requires=[
-        'opencv-contrib-python',
-        'scikit-surgeryimage>=0.6.0',
-        'scikit-surgeryutils',
-        'scikit-surgerynditracker',
-        'scikit-surgeryarucotracker',
-        'numpy',
-        'PySide2',
+        'snappysonic'
     ],
 
     entry_points={
