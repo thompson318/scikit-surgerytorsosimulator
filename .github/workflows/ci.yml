@@ -78,10 +78,6 @@ jobs:
         run: |
           pylint --rcfile=tests/pylintrc snappysonic
 
-      - name: Run coveralls
-        run: |
-          coveralls
-
   deploy:
     runs-on: ubuntu-18.04
     needs: test
